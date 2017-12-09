@@ -7,14 +7,14 @@ import java.awt.*;
 public class Day3 extends JFrame {
 
     private static final int ENTRY_POINT = 1;
-    private static final int MAX_DATA = 100;
+    private static final int MAX_DATA = 277678;
     private static final int INPUT = 23;
 
     private static final int FRAME_H = 1000;
     private static final int FRAME_W = 1000;
     private static final int CENTER = FRAME_H / 2;
 
-    private static final int STEP = 4; //px
+    private static final int STEP = 2; //px
 
 
     public Day3() {
@@ -45,7 +45,6 @@ public class Day3 extends JFrame {
 
                 for (int c = 0; c < current; c++) {
                     g.drawLine(lastX, lastY, lastX + dirX, lastY + dirY);
-                    g.drawRect(lastX, lastY, STEP / 2, STEP / 2);
                     lastX += dirX;
                     lastY += dirY;
                 }
