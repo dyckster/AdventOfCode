@@ -1,4 +1,4 @@
-package days.day7;
+package seventeen.day7;
 
 import utils.Util;
 
@@ -14,7 +14,7 @@ public class Day {
     private static final boolean USE_TEST = false;
 
     public static void main(String[] args) {
-        String input = Util.readFromFile(Paths.get("input7" + (USE_TEST ? "test" : "") + ".txt"));
+        String input = Util.readFromFile(Paths.get("resources/2017/input7" + (USE_TEST ? "test" : "") + ".txt"));
         ptOne(input);
     }
 

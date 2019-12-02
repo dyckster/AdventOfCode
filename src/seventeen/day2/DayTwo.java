@@ -1,10 +1,7 @@
-package days.day2;
+package seventeen.day2;
 
 import utils.Util;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.StringReader;
 import java.nio.file.Paths;
 import java.util.*;
 
@@ -14,7 +11,7 @@ public class DayTwo {
 
 
     public static void main(String[] args) {
-        String input = Util.readFromFile(Paths.get("input2" + (USE_TEST ? "test" : "") + ".txt"));
+        String input = Util.readFromFile(Paths.get("resources/2017/input2" + (USE_TEST ? "test" : "") + ".txt"));
         calculateFirstTask(input);
         calculateSecondTask(input);
     }

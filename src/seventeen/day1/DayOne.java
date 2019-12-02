@@ -1,4 +1,4 @@
-package days.day1;
+package seventeen.day1;
 
 import utils.Util;
 
@@ -6,7 +6,7 @@ import java.nio.file.Paths;
 
 public class DayOne {
     public static void main(String[] args) {
-        String input = Util.readFromFile(Paths.get("input1.txt"));
+        String input = Util.readFromFile(Paths.get("resources/2017/input1.txt"));
 
         calculateFirstTask(input.toCharArray());
         calculateSecondTask(input.toCharArray());

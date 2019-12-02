@@ -1,4 +1,4 @@
-package days.day4;
+package seventeen.day4;
 
 import utils.Util;
 
@@ -8,7 +8,7 @@ import java.util.*;
 public class Day {
 
     public static void main(String[] args) {
-        String input = Util.readFromFile(Paths.get("input4.txt"));
+        String input = Util.readFromFile(Paths.get("resources/2017/input4.txt"));
         taskOne(input);
         taskTwo(input);
 

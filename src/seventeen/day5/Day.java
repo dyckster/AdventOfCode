@@ -1,4 +1,4 @@
-package days.day5;
+package seventeen.day5;
 
 import utils.Util;
 
@@ -8,7 +8,7 @@ import java.util.List;
 
 public class Day {
     public static void main(String[] args) {
-        String input = Util.readFromFile(Paths.get("input5.txt"));
+        String input = Util.readFromFile(Paths.get("resources/2017/input5.txt"));
         String[] lines = input.split("\\n");
         List<Integer> vals = new ArrayList<>();
         for (String line : lines) {
