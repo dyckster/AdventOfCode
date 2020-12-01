@@ -12,8 +12,8 @@ fun main(args: Array<String>) {
     val input = getInput()
     var result: DesiredPair? = null
 
-    for (number in input.withIndex()) {
-        result = tryToFindTheResult(input = input.toList(), currentIndex = number.index)
+    for (number in input) {
+        result = tryToFindTheResult(input = input, currentNumber = number)
         if (result != null) {
             break
         }
@@ -28,18 +28,13 @@ fun main(args: Array<String>) {
     println("Took: ${System.currentTimeMillis() - start}")
 }
 
-private fun tryToFindTheResult(input: List<Int>, currentIndex: Int): DesiredPair? {
-    val mutableInputList = input.toMutableList()
-    val currentNumber = mutableInputList.removeAt(currentIndex)
-    val filteredResults = input
-            .filter { number ->
-                currentNumber + number == DESIRED_RESULT
-            }
-            .map { number ->
-                DesiredPair(currentNumber, number)
-            }
-
-    return filteredResults.firstOrNull()
+private fun tryToFindTheResult(input: Array<Int>, currentNumber: Int): DesiredPair? {
+    for (number in input) {
+        if (number + currentNumber == DESIRED_RESULT) {
+            return DesiredPair(number, currentNumber)
+        }
+    }
+    return null
 }
 
 private data class DesiredPair(val firstValue: Int, val secondValue: Int)

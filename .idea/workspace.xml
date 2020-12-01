@@ -20,10 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32a19204-8bd8-45bb-99a3-4cf836b771e1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/2020/day1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/twenty/day1/Solution.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/twenty/day1/Solution.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/twenty/day1/Solution.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +69,12 @@
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575474630207" />
     <property name="last.edited.regexp" value="tknk (41) -&gt; ugml, padx, fwft" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
@@ -220,7 +224,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1512248942316</updated>
-      <workItem from="1606824224857" duration="1498000" />
+      <workItem from="1606824224857" duration="2105000" />
     </task>
     <servers />
   </component>
@@ -243,22 +247,22 @@
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="1386" y="370" key="#xdebugger.evaluate/0.0.3440.1400/-1080.-594.1080.2520@0.0.3440.1400" timestamp="1606824675681" />
-    <state width="2175" height="353" key="GridCell.Tab.0.bottom" timestamp="1606825632096">
+    <state width="2175" height="353" key="GridCell.Tab.0.bottom" timestamp="1606826346334">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="2175" height="353" key="GridCell.Tab.0.bottom/0.0.3440.1400/-1080.-594.1080.2520@0.0.3440.1400" timestamp="1606825632096" />
-    <state width="2175" height="353" key="GridCell.Tab.0.center" timestamp="1606825632096">
+    <state width="2175" height="353" key="GridCell.Tab.0.bottom/0.0.3440.1400/-1080.-594.1080.2520@0.0.3440.1400" timestamp="1606826346334" />
+    <state width="2175" height="353" key="GridCell.Tab.0.center" timestamp="1606826346334">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="2175" height="353" key="GridCell.Tab.0.center/0.0.3440.1400/-1080.-594.1080.2520@0.0.3440.1400" timestamp="1606825632096" />
-    <state width="2175" height="353" key="GridCell.Tab.0.left" timestamp="1606825632096">
+    <state width="2175" height="353" key="GridCell.Tab.0.center/0.0.3440.1400/-1080.-594.1080.2520@0.0.3440.1400" timestamp="1606826346334" />
+    <state width="2175" height="353" key="GridCell.Tab.0.left" timestamp="1606826346334">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="2175" height="353" key="GridCell.Tab.0.left/0.0.3440.1400/-1080.-594.1080.2520@0.0.3440.1400" timestamp="1606825632096" />
-    <state width="2175" height="353" key="GridCell.Tab.0.right" timestamp="1606825632096">
+    <state width="2175" height="353" key="GridCell.Tab.0.left/0.0.3440.1400/-1080.-594.1080.2520@0.0.3440.1400" timestamp="1606826346334" />
+    <state width="2175" height="353" key="GridCell.Tab.0.right" timestamp="1606826346334">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="2175" height="353" key="GridCell.Tab.0.right/0.0.3440.1400/-1080.-594.1080.2520@0.0.3440.1400" timestamp="1606825632096" />
+    <state width="2175" height="353" key="GridCell.Tab.0.right/0.0.3440.1400/-1080.-594.1080.2520@0.0.3440.1400" timestamp="1606826346334" />
     <state width="2175" height="399" key="GridCell.Tab.1.bottom" timestamp="1606825011765">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
